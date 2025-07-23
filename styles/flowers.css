@@ -40,13 +40,14 @@ body{
 }
 
 /* header styles */
-
+.header{
+    margin: 0 auto;
+}
 /* navbar related styles */
 .navbar{
     justify-content: space-around;
     align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
+    
 }
 .nav-item{
     list-style: none;
@@ -56,4 +57,23 @@ body{
     text-decoration: none;
     font-weight: 500;
     
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related styles */
+.banner{
+    display: flex;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 106px;
+    justify-content: space-around;
+}
+.banner-title{
+    font-weight: 570;
+    
+}
+.banner-content{
+    padding-top: 162px;
 }

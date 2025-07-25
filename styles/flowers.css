@@ -110,6 +110,17 @@ body{
     padding: 1rem;
     border-radius: 6px;
     color: white;
+}
+/* plant lover section */
+.plant-lover {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      background-color: #f3f3f3;
+      padding: 3rem 0;
+    }
 
-
+    .plant-lover img {
+      max-width: 500px;
+      border-radius: 8px;
     }

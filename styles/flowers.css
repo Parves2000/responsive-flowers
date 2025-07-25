@@ -83,11 +83,11 @@ body{
 }
 /* plant section */
 .plants-section{
-      /* padding: 3rem 0; */
+      padding: 3rem 0;
       text-align:center;
       max-width: 990px;
       margin: 0 auto;
-      padding: 106px;
+      /* padding: 106px; */
     }
 
 .cards {
@@ -286,7 +286,116 @@ body{
   width: 24px;
   height: 24px;
 }
+@media screen and (max-width: 576px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .nav-links {
+    display: none; 
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Cards (Plant Section) */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 3rem 0;
+  }
+
+  .card {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Plant Lover Section */
+  .plant-lover {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .plant-lover img {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-lover ul {
+    padding-left: 18px;
+  }
+/* Latest Deals Section */
+  .deals-container {
+    flex-direction: column;
+  }
+
+  .left-deals, .right-deal {
+    width: 100%;
+  }
+
+  .deal-box {
+    background-size: cover;
+    background-position: center;
+    min-height: 180px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-overlay {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px 16px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    /* gap: 30px; */
+  }
+
+  .footer-links {
+    flex-direction: column;
+    /* gap: 16px; */
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
 
 
 

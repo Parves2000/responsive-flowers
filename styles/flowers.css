@@ -38,6 +38,9 @@ body{
 .text-black{
     color: #000000;
 }
+.text-primary{
+    color: #E95A08;
+}
 
 /* header styles */
 .header{
@@ -77,3 +80,36 @@ body{
 .banner-content{
     padding-top: 162px;
 }
+/* plant section */
+.plants-section{
+      padding: 3rem 0;
+      text-align:center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 6px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+    .btn-primary{
+    background-color: #E95A08;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 6px;
+    color: white;
+
+
+    }
